@@ -1,0 +1,9 @@
+data/
+etc/
+Include/
+Lib/
+Scripts/
+share/
+pyvenv.cfg
+ntbks/.ipynb_checkpoints
+.ipynb_checkpoints/
