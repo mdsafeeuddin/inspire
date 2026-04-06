@@ -5,3 +5,5 @@ scipy
 streamlit
 scikit-learn
 imblearn
+fastapi
+uvicorn

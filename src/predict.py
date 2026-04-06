@@ -15,4 +15,7 @@ def predict(input_dict):
     prob = model.predict_proba(df)[:,1]
     pred = (prob > 0.5).astype(int)
 
-    return pred, prob
+    return {
+        "prediction": int(pred[0]),
+        "probability": float(prob[0])
+    }
