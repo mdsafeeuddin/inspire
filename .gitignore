@@ -7,3 +7,9 @@ share/
 pyvenv.cfg
 ntbks/.ipynb_checkpoints
 .ipynb_checkpoints/
+chat-gpt-journey.txt
+ntbks/model.pkl
+ntbks/features.pkl
+ntbks/preprocess_bkp.ipynb
+ntbks/pgsql.ipynb
+README.md
