@@ -12,4 +12,4 @@ ntbks/model.pkl
 ntbks/features.pkl
 ntbks/preprocess_bkp.ipynb
 ntbks/pgsql.ipynb
-README.md
+README-old.md
