@@ -131,5 +131,6 @@ pip install -r requirements.txt
 ```bash
 python src.api:app
 ```
-
+## 📝 Status
+* This project is currently in the Development Phase. I am currently refining the predict.py logic and improving error handling for edge-case patient data.
 
