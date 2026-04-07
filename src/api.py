@@ -1,6 +1,7 @@
 from fastapi import FastAPI
 from pydantic import BaseModel
 from predict import predict
+from fastapi.responses import RedirectResponse
 
 app = FastAPI()
 
@@ -16,7 +17,7 @@ class Patient(BaseModel):
 
 @app.get("/")
 def home():
-    return {"message": "Mortality Prediction API"}
+    return RedirectResponse(url='/docs')
 
 @app.post("/predict")
 def predict_patient(data: Patient):

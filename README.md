@@ -131,6 +131,27 @@ pip install -r requirements.txt
 ```bash
 python src.api:app
 ```
+## 🛠️ API Endpoints
+
+### `GET /`
+**Automatic Documentation Redirect**  
+Accessing the root URL automatically redirects you to the interactive Swagger UI (`/docs`), where you can test the API directly from your browser.
+
+### `POST /predict`
+Submit patient data to receive a mortality prediction.
+
+**Request Body (JSON):**
+```json
+{
+  "age": 70,
+  "asa": 4,
+  "bmi": 28,
+  "emop": 1,
+  "surgery_duration": 5000,
+  "anesthesia_duration": 6000,
+  "preop_wait_time": 2000
+}
+
 ## 📝 Status
 * This project is currently in the Development Phase. I am currently refining the predict.py logic and improving error handling for edge-case patient data.
 
