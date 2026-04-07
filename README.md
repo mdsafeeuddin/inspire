@@ -151,7 +151,7 @@ Submit patient data to receive a mortality prediction.
   "anesthesia_duration": 6000,
   "preop_wait_time": 2000
 }
-
+```
 ## 📝 Status
 * This project is currently in the Development Phase. I am currently refining the predict.py logic and improving error handling for edge-case patient data.
 
