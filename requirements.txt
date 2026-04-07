@@ -2,7 +2,6 @@ pandas
 seaborn
 matplotlib
 scipy
-streamlit
 scikit-learn
 imblearn
 fastapi

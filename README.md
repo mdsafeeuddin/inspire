@@ -129,34 +129,7 @@ pip install -r requirements.txt
 ```
 
 ```bash
-python train.py
+python src.api:app
 ```
 
----
 
-## 📁 Project Structure
-
-```text
-project/
-├── data/
-├── notebooks/
-├── src/
-├── model.pkl
-├── features.pkl
-├── README.md
-```
-
----
-
-## 📌 Future Improvements
-
-* Deploy as a Streamlit app
-* Incorporate more clinical variables
-* Hyperparameter tuning for XGBoost
-* Use time-series patient data
-
----
-
-## 👤 Author
-
-[Your Name]
